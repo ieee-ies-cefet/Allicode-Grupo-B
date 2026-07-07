@@ -1,0 +1,94 @@
+.form-container {
+  background-color: #f4f6f9;
+  border-radius: 10px;
+  padding: 40px;
+  width: 608px; 
+  height: 593px; 
+  box-sizing: border-box; 
+  margin: 40px auto; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.form-group label {
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.form-group input {
+  background-color: #dbe1f1;
+  border: none;
+  border-radius: 12px;
+  height: 52px;
+  padding: 0 16px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: background-color 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  background-color: #b9c4e6;
+  border: none;
+  border-radius: 20px;
+  height: 220px;
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  resize: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group textarea::placeholder {
+  color: #f4f6f9; 
+  opacity: 0.9;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+  filter: brightness(0.95);
+}
+
+.btn-enviar {
+  background-color: #1d43b4;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  height: 60px;
+  width: 180px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-enviar:hover {
+  background-color: #163593;
+}
+
+.btn-enviar:active {
+  transform: scale(0.98);
+}

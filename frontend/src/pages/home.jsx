@@ -1,6 +1,6 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
-import FeaturesGrid from "../components/FeaturesGrid";
+import FeaturesGrid from "../components/featuresgrid";
 import "../styles/home.css";
 
 function Home() {

@@ -1,18 +1,19 @@
+import { Link } from "react-router-dom";
 import "../styles/header.css";
 import logo from "../assets/logo.svg";
 
 function Header() {
   return (
     <header>
-      <div className="logo">
+      <Link to="/">
         <img src={logo} alt="IEEE Industrial Electronics Society" />
-      </div>
+      </Link>
 
       <nav>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
-        <a href="#">Conta</a>
-        <a href="#">Projetos</a>
+        <Link to="#">Sobre</Link>
+        <Link to="/contato">Contato</Link>
+        <Link to="/conta">Conta</Link>
+        <Link to="#">Projetos</Link>
       </nav>
     </header>
   );
