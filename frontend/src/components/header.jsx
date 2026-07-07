@@ -1,10 +1,11 @@
 import "../styles/header.css";
+import logo from "../assets/logo.svg";
 
 function Header() {
   return (
     <header>
       <div className="logo">
-        IEEE Industrial Electronics Society
+        <img src={logo} alt="IEEE Industrial Electronics Society" />
       </div>
 
       <nav>
